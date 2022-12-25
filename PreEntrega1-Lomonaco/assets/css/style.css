@@ -1,0 +1,622 @@
+*{margin: 0px; padding: 0px;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+
+/*Index*/
+body{
+    background-color: black;
+}
+/*Navigationbar*/
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    position: sticky;
+}
+nav{
+    background-color: black;
+    padding:16px;
+}
+.navbar{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+.navbar > li {
+    list-style: none;
+    display: inline-block;
+    justify-content:space-between;
+    margin-right: 20px;
+}
+.navbar li a{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    padding-inline: 10px;
+}
+
+.img__carrito{
+    width: 24px;
+}
+/*Heading*/
+h1{
+    color: white;
+    font-size: 100px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+h2{
+    color: white;
+    font-size: 70px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    padding: 30px;
+    font-weight: lighter;
+}
+h3{
+    color: white;
+    font-size: 50px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    padding: 30px;
+    font-weight: lighter;
+    justify-content: center;
+}
+/*Elementsindex*/
+
+.portada img{
+    width: 100%;
+    height: 80%;
+}
+.divisor__text{
+    color: azure;
+    font-family: 'Kanit', sans-serif;
+    justify-content: center;
+    padding-top: 60px;
+    display: flex
+}
+.portada2{
+    width: 100%;
+}
+.world{
+    height: 700px;
+    background-color: blue;
+    background-image: url(../img/worldbackground.jpg);
+    background-position: -100px;
+}
+.world__container{
+    display: block;
+    justify-content:center;
+    background-color: black;
+    width: auto;
+}
+/*values*/
+.values{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.index__card{
+    background-color: black;
+    display:block;
+    align-content: center;
+    justify-content: center;
+    width: 300px;
+    border: solid 3px;
+    border-radius: 8px;
+    border-style: none;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.card__img{
+    padding-left: 50px;
+    padding-right: 50px;
+    align-self: center;
+}
+.card__title{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(135, 72, 141);
+}
+.card__text{
+    font-family: 'Kanit', sans-serif;
+    color: rgb(143, 143, 143);
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+/*Footergeneral*/
+footer{
+    background-color: black;
+    border-top: 0.5px solid rgb(102, 102, 102);
+    height: auto;
+    margin: 0px, 50px, 50px, 50px;
+    align-content: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    padding: 10px;
+}
+.socials li{
+    padding: 10px;
+}
+/*Footer&socialmedia*/
+.logostyle{
+    width: 200px;
+}
+.footer__contentbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+}
+.footertext{
+    color: white;
+    font-size:20px;
+    font-family:'Kanit', sans-serif;
+}
+.endfooter{
+    border-top: 0.5px solid rgb(102, 102, 102);
+    width: 100%;
+}
+.textbox{
+    display:flexbox;
+    justify-content: space-evenly;
+    padding-inline: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    font-size:24px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: baseline;
+}
+.textbox h3{
+    font-size: 22px;
+    font-family: 'Kanit', sans-serif;
+}
+.textbox p{
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+}
+.iconsocial{
+    width: 32px;
+}
+.disclaimer{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 20px;
+}
+
+/*CONTACT*/
+
+/*Callcenter*/
+.callcenter{
+    background-color:rgb(29, 29, 29);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.callcenter__content{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+}
+.callcenter__img img{
+    padding-right: 40px;
+}
+.callcenter__text{
+    color: white;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: lighter;
+    width: 60%;
+}
+/*CorporateAdress*/
+.corporate{
+    background-color:rgb(29, 29, 29);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.corporate__address{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+}
+.map{
+    width: 600px;
+    height: 400px;
+    border-style: none;
+    padding-right: 20px;
+}
+.corporate__text{
+    color: white;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: lighter;
+    width: 40%;
+}
+/*Form*/
+.formulario{
+    width: auto;
+    background-color:rgb(29, 29, 29);
+    margin: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 100px;
+}
+.formulario__content{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+    padding-bottom: 20px;
+}
+form{
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+}
+form label{
+    padding-bottom: 5px;
+}
+
+.field{
+    display:block;
+    flex-direction: column;
+    width: 300px;
+}
+.field label{
+    margin-bottom: 5px;
+    width: 300px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: lighter;
+    font-size: larger;
+}
+.field input{
+    width: 300px;
+    height: 32px;
+    padding-left: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    border-radius: 4px;
+
+}
+.check{
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    width:auto;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+.boton{    
+    display:block;
+    justify-content:left;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.boton {
+    padding: 10px;
+    width: 400px;
+    background-color: rgb(150, 38, 255);
+    border-style: none;
+    border-radius: 4px;
+    font-family: 'Kanit', sans-serif;
+    font-size: larger;
+    font-weight:bolder;
+}
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding-left: 4px;
+    padding-top: 4px;
+    width: 150px;
+    border-radius: 4px;
+}
+.message{
+    width: 400px;
+}
+.contact__image{
+    max-width: 400px;
+    display: block;
+}
+.contact__image__help{
+    width:400px;
+    align-content: flex-end;
+}
+
+/*SUPPORT*/
+.support__portada{
+    height: 500px;
+    background-size: cover;
+    background-image:url(../img/support1.png);
+}
+.support__team{
+    background-color:rgb(29, 29, 29);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 40px;
+    border-radius: 20px; 
+}
+.support__content{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.support__img img{
+    padding-right: 30px;
+    width: 80%;
+}
+.support__text{
+    color: white;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: lighter;
+    width: 80%;
+    padding-right: 30px;
+    text-align: left;
+}
+/*CommonQuestions*/
+.faq{
+    background-color:rgb(29, 29, 29);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin: 40px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.faq__content{
+    margin-left: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.faq__text{
+    color: white;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: lighter;
+    width: 100%;
+    text-align: left;
+}
+.faq__text li{
+    padding: 20px;
+}
+
+/*ABOUT*/
+.about1{
+    background-color:rgb(29, 29, 29);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about1__content{
+    display:flex;
+    width: 100%;
+    max-width: 1400px;
+}
+.about1__img img{
+    padding-left: 40px;
+    width: 70%;
+}
+.about1__text{
+    color: white;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: lighter;
+    width: 80%;
+    padding-right: 40px;
+}
+/*Leadership*/
+.ceos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ceo__card{
+    display:block;
+    align-content: center;
+    justify-content: center;
+    width: 300px;
+    border: solid 3px rgb(80, 80, 80);
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.ceo__card__img{
+    width: 70%;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-self: center;
+}
+.ceo__card__title{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(135, 72, 141);
+}
+.ceo__card__text{
+    font-family: 'Kanit', sans-serif;
+    color: rgb(143, 143, 143);
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+}
+
+/*PRODUCTS*/
+/*Starproduct*/
+.tablet1{
+    background-color:rgb(29, 29, 29);
+    padding-bottom: 100px;
+    margin: 40px;
+    border-radius: 20px;
+}
+.tablet1__content{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.tablet1__img img{
+    width: 600px;
+    padding-right: 40px;
+
+}
+.tablet1__text{
+    color: rgb(223, 223, 223);
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: lighter;
+    width: 30%;
+}
+.tablet1__subtitle{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.tablet1__card__price{
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.tablet1__boton {
+    padding: 20px;
+    width: 300px;
+    background-color: rgb(150, 38, 255);
+    border-style: none;
+    border-radius: 4px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    font-weight:bolder;
+}
+/*Accesories*/
+.products2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.products2__card{
+    background-color: rgb(41, 41, 41);
+    display:block;
+    width: 300px;
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.products2__card__img{
+    width: 80%;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-self: center;
+}
+.products2__card__title{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+}
+.products2__card__text{
+    font-family: 'Kanit', sans-serif;
+    color: rgb(143, 143, 143);
+    font-size: 20px;
+    align-items: center;
+}
+.products2__card__price{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.products2__boton {
+    padding: 10px;
+    margin-top: 20px;
+    width: 300px;
+    background-color: rgb(150, 38, 255);
+    border-style: none;
+    border-radius: 4px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    font-weight:bolder;
+}
+/*Footer responsive*/
+
+
+
+
+
+
+
